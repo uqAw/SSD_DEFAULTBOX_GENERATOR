@@ -3,4 +3,4 @@
 
 ## 12-Nov-2015
 
-* Added `docker-compose`
+* Added `docker-compose` into `development` ima
