@@ -4,4 +4,8 @@
 ## 12-Nov-2015
 
 * Added `docker-compose` into `development` image
-* Added `rancher-compose` into `development` 
+* Added `rancher-compose` into `development` image
+
+## 11-Nov-2015
+
+* C
