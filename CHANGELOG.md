@@ -8,4 +8,4 @@
 
 ## 11-Nov-2015
 
-* Changed `dind` to `devel
+* Changed `dind` to `development` just because we ende
