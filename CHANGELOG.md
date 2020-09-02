@@ -8,4 +8,4 @@
 
 ## 11-Nov-2015
 
-* C
+* Changed `dind` to `devel
