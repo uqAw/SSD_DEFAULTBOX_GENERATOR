@@ -13,4 +13,4 @@ a **Docker-in-Docker** solution on CI.
 
 ## 10-Nov-2015
 
-* Added
+* Added Docker-in-Docker image s
