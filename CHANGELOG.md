@@ -9,4 +9,8 @@
 ## 11-Nov-2015
 
 * Changed `dind` to `development` just because we ended up to use more than just
-a **Docker-in-Docker** solution 
+a **Docker-in-Docker** solution on CI.
+
+## 10-Nov-2015
+
+* Added
