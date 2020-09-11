@@ -13,4 +13,5 @@ a **Docker-in-Docker** solution on CI.
 
 ## 10-Nov-2015
 
-* Added Docker-in-Docker image so we can test before buil
+* Added Docker-in-Docker image so we can test before build, all on the same
+imag
