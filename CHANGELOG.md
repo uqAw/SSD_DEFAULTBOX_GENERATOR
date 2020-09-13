@@ -15,4 +15,5 @@ a **Docker-in-Docker** solution on CI.
 
 * Added Docker-in-Docker image so we can test before build, all on the same
 image.
-* Added recent versions: `5.0.0` `4.2.2`
+* Added recent versions: `5.0.0` `4.2.2` `4.2.1`
+* Seems that ol
