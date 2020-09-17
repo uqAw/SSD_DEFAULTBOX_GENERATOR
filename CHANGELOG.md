@@ -17,4 +17,4 @@ a **Docker-in-Docker** solution on CI.
 image.
 * Added recent versions: `5.0.0` `4.2.2` `4.2.1`
 * Seems that older versions wasn't here, added as also on versions
-* Sc
+* Script for fetching version
