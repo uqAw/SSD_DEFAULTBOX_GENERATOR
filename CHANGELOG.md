@@ -17,4 +17,6 @@ a **Docker-in-Docker** solution on CI.
 image.
 * Added recent versions: `5.0.0` `4.2.2` `4.2.1`
 * Seems that older versions wasn't here, added as also on versions
-* Script for fetching versions was changed to don't include
+* Script for fetching versions was changed to don't include `isaacs-manual`
+
+## 2
