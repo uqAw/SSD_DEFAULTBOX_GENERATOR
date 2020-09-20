@@ -21,4 +21,4 @@ image.
 
 ## 21-Out-2015
 
-* Upgrade *Alpine* packages befor
+* Upgrade *Alpine* packages before `npm install` com
