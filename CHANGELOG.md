@@ -21,4 +21,4 @@ image.
 
 ## 21-Out-2015
 
-* Upgrade *Al
+* Upgrade *Alpine* packages befor
