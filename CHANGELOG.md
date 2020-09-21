@@ -25,4 +25,8 @@ image.
 
 ## 14-Out-2015
 
-* Added vers
+* Added version `4.2.0`
+
+## 9-Out-2015
+
+* 
