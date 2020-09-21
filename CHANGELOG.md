@@ -21,4 +21,8 @@ image.
 
 ## 21-Out-2015
 
-* Upgrade *Alpine* packages before `npm install` com
+* Upgrade *Alpine* packages before `npm install` command
+
+## 14-Out-2015
+
+* Added vers
