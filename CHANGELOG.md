@@ -29,4 +29,4 @@ image.
 
 ## 9-Out-2015
 
-* Added `test` comm
+* Added `test` command which proxies to `npm test`
