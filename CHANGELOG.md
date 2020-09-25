@@ -29,4 +29,6 @@ image.
 
 ## 9-Out-2015
 
-* Added `test` command which proxies to `npm test`
+* Added `test` command which proxies to `npm test` on `/app` folder
+
+##
