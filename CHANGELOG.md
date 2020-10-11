@@ -33,4 +33,4 @@ image.
 
 ## 8-Out-2015
 
-* Added
+* Added packages needed for some native mod
