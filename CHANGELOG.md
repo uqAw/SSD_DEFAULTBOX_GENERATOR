@@ -33,4 +33,8 @@ image.
 
 ## 8-Out-2015
 
-* Added packages needed for some native mod
+* Added packages needed for some native modules
+
+## 6-Out-2015
+
+* Separated `
