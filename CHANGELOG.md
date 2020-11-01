@@ -41,4 +41,5 @@ image.
 * Created this changelog!1 :p
 * Added a Javascript generator on Makefile to allow me to inject Build Settings
 on newer Docker Hub.
-* Added `4.1.
+* Added `4.1.2` version
+* Add Docker Hub
