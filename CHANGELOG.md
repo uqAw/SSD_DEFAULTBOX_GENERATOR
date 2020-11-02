@@ -44,4 +44,4 @@ on newer Docker Hub.
 * Added `4.1.2` version
 * Add Docker Hub build triggers so i don't have to track them from the UI
 * Added `clean` on Makefile to clean development things
-* Set `wget` to be no
+* Set `wget` to be non-verbose, so we 
