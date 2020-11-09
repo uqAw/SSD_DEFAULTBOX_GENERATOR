@@ -48,3 +48,6 @@ on newer Docker Hub.
 * Added `sh` | `bash` option into entrypoint
 * Added **Launcher**, a new way to run containerized node while developing
 
+## 4-Out-2015
+
+* Cr
