@@ -53,4 +53,4 @@ on newer Docker Hub.
 * Created support for all node versions
 * Some of the versions aren't building correctly and/or image is too big, as ATM
 I don't have time to investigate, I will let that task for later or for anyone
-who wants 
+who wants to do it.
