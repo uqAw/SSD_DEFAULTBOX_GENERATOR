@@ -51,4 +51,4 @@ on newer Docker Hub.
 ## 4-Out-2015
 
 * Created support for all node versions
-* Some of the version
+* Some of the versions aren't building correctly an
