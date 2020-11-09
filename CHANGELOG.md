@@ -50,4 +50,4 @@ on newer Docker Hub.
 
 ## 4-Out-2015
 
-* Cr
+* Created support for all node versio
