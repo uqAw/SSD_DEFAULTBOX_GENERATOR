@@ -5,4 +5,5 @@ A script that changes enhances your development workflow.
 ## Installing
 
 ```bash
-# Put node.dock
+# Put node.docker launcher into /usr/sbin :
+w
