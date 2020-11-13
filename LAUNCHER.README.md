@@ -2,4 +2,7 @@
 
 A script that changes enhances your development workflow.
 
-## Ins
+## Installing
+
+```bash
+# Put node.dock
