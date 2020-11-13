@@ -1,3 +1,5 @@
 # node.docker launcher
 
-A script that changes enhances your developme
+A script that changes enhances your development workflow.
+
+## Ins
