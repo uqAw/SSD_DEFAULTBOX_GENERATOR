@@ -7,4 +7,6 @@ A script that changes enhances your development workflow.
 ```bash
 # Put node.docker launcher into /usr/sbin :
 wget -O /usr/sbin/node.docker https://raw.githubusercontent.com/cusspvz/node.docker/master/launcher;
-chmod +x /usr/sbin/n
+chmod +x /usr/sbin/node.docker;
+
+# In 
