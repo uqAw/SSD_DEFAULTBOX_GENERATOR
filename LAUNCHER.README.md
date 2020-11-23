@@ -14,4 +14,5 @@ npm i -g node.docker
 ```
 
 Will re-use container image if its on cache, otherwise it will pull from DH.
-```b
+```bash
+bash-3.2$ node.
