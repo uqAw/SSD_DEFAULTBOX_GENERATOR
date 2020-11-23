@@ -10,4 +10,7 @@ wget -O /usr/sbin/node.docker https://raw.githubusercontent.com/cusspvz/node.doc
 chmod +x /usr/sbin/node.docker;
 
 # In case you have node and prefer an NPM package:
-npm i -g 
+npm i -g node.docker
+```
+
+Will re-use
