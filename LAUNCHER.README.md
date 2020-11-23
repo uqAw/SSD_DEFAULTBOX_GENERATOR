@@ -13,4 +13,5 @@ chmod +x /usr/sbin/node.docker;
 npm i -g node.docker
 ```
 
-Will re-use container image if its on cache, other
+Will re-use container image if its on cache, otherwise it will pull from DH.
+```b
