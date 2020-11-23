@@ -9,4 +9,4 @@ A script that changes enhances your development workflow.
 wget -O /usr/sbin/node.docker https://raw.githubusercontent.com/cusspvz/node.docker/master/launcher;
 chmod +x /usr/sbin/node.docker;
 
-# In 
+# In case you have node and prefe
