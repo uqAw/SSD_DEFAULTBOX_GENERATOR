@@ -19,4 +19,5 @@ bash-3.2$ node.docker 0.12.7
 > 0.12.7 is up and running from dockercache
 (^C again to quit)
 >
-bash-3.2$ node.docker 
+bash-3.2$ node.docker 4.1.1
+Unable to find
