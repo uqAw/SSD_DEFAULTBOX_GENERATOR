@@ -24,4 +24,5 @@ Unable to find image 'cusspvz/node:4.1.1' locally
 4.1.1: Pulling from cusspvz/node
 9caf287e1f2d: Pull complete
 8119db1f2d0a: Pull complete
-61f0af81675f: Pull 
+61f0af81675f: Pull complete
+e13c97fc9799: 
