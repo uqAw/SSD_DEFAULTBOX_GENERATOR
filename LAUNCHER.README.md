@@ -22,4 +22,5 @@ bash-3.2$ node.docker 0.12.7
 bash-3.2$ node.docker 4.1.1
 Unable to find image 'cusspvz/node:4.1.1' locally
 4.1.1: Pulling from cusspvz/node
-9caf
+9caf287e1f2d: Pull complete
+811
