@@ -20,4 +20,4 @@ bash-3.2$ node.docker 0.12.7
 (^C again to quit)
 >
 bash-3.2$ node.docker 4.1.1
-Unable to find
+Unable to find image 'cusspvz/node:4.1.1
