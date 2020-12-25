@@ -47,4 +47,6 @@ bash-3.2$
 
 ## Usage
 
-### Run speci
+### Run specific version
+```bash
+node.doc
