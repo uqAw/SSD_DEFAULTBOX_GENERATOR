@@ -49,4 +49,4 @@ bash-3.2$
 
 ### Run specific version
 ```bash
-node.docker x.x.x [node argume
+node.docker x.x.x [node arguments] [path to you
