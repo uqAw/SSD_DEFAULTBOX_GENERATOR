@@ -53,4 +53,5 @@ node.docker x.x.x [node arguments] [path to your file]
 ```
 
 ### Build a docker image
-```bas
+```bash
+node.docker build x.x.x im
