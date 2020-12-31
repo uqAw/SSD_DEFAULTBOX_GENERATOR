@@ -59,4 +59,5 @@ node.docker build x.x.x image/name:tag
 
 ### Build and Execute a docker image
 ```bash
-node.docker run x.x.x image/name:ta
+node.docker run x.x.x image/name:tag
+```
