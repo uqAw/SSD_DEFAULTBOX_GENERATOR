@@ -26,3 +26,27 @@ fetch-versions:
 	grep "/\">v" | grep -v isaacs-manual | \
 	sed -e 's/<a href="v\(.*\)\/".*/\1/' | \
 	sort -t . -k1,1nr -k2,1nr -k3,1nr \
+		>> ./versions
+	@cat versions
+
+generate-version:
+	@echo "Generating version dockerfiles: ${VERSION_PATH}"
+	@mkdir -p ${VERSION_PATH}
+	@cat src/Dockerfile | sed -e "s/NODE_VERSION=latest/NODE_VERSION=${VERSION}/" >${VERSION_PATH}/Dockerfile
+	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_PATH}/Dockerfile.onbuild;
+	@cat src/Dockerfile.onbuild >> ${VERSION_PATH}/Dockerfile.onbuild;
+	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_PATH}/Dockerfile.onbuild-yarn;
+	@cat src/Dockerfile.onbuild-yarn >> ${VERSION_PATH}/Dockerfile.onbuild-yarn;
+	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_PATH}/Dockerfile.development;
+	@cat src/Dockerfile.development >> ${VERSION_PATH}/Dockerfile.development;
+ifeq ($(VERSION),latest)
+	@cp src/.travis.latest.yml ${VERSION_PATH}/.travis.yml;
+else
+	@cp src/.travis.yml ${VERSION_PATH}/.travis.yml;
+endif
+
+
+
+generate-tag-version:
+	@rm -fR ${VERSION_PATH} && \
+	mkdir -p ${VERSION_PATH} && \
