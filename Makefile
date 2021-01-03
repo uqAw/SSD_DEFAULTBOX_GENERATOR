@@ -50,3 +50,29 @@ endif
 generate-tag-version:
 	@rm -fR ${VERSION_PATH} && \
 	mkdir -p ${VERSION_PATH} && \
+	cd ${VERSION_PATH} && \
+	git init && \
+	git remote add origin git@github.com:cusspvz/node.docker.git && \
+	{ \
+		git fetch origin ${VERSION_PATH} && \
+			git checkout ${VERSION_PATH} || \
+			git checkout -b ${VERSION_PATH}; \
+	} && \
+	{ \
+		make -C ${REPO_PATH} VERSION=${VERSION} generate-version && \
+		git diff-index --quiet HEAD -- && { \
+			echo "${VERSION}: No diff spotted"; \
+		} || { \
+			echo "${VERSION}: Uploading changes to GitHub" && \
+			git add . && \
+			git commit -m ${VERSION_PATH} && \
+			git push origin ${VERSION_PATH} --force; \
+		}; \
+	} && \
+	{ echo "${VERSION}: Finished" && exit 0; } || \
+	{ echo "${VERSION}: Finished with some errors, please check." && exit 1; }
+
+
+build: generate-version
+	@echo "Building :${TAG} with ${VERSION} version"
+	@docker build -t cusspvz/node:${TAG} ${VERSION_PATH}
