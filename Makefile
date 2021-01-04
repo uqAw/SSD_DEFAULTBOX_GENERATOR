@@ -76,3 +76,25 @@ generate-tag-version:
 build: generate-version
 	@echo "Building :${TAG} with ${VERSION} version"
 	@docker build -t cusspvz/node:${TAG} ${VERSION_PATH}
+
+push: build
+	docker push cusspvz/node:${TAG}
+
+generate-version-all: fetch-versions
+	@for VERSION in $(shell cat versions); do \
+		make VERSION=$$VERSION generate-version; \
+	done;
+
+generate-tag-version-all: fetch-versions
+	@for VERSION in $(shell cat versions); do \
+		make VERSION=$$VERSION generate-tag-version; \
+	done;
+
+build-all: fetch-versions
+	@for VERSION in $(shell cat versions); do \
+		make VERSION=$$VERSION build; \
+	done;
+
+push-all: fetch-versions
+	@for VERSION in $(shell cat versions); do \
+		make VERSION=$$VERSION push; \
