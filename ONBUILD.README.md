@@ -41,3 +41,19 @@ Under the hood, it executes the following commands:
   dependencies. If you need some of the development packages, use next command
   to install them. Please be sure you left your image clean and small.
 * `npm run build` - You should **ALWAYS** have a `build` script. Most of us will
+  need this to set up our building process, if you don't, just set it up as an
+  `echo none`. In case you don't know what to put here, for us, this is useful
+  for building front-end components at our projects.
+* `CMD [ "start" ]` - I've put here an `entrypoint` that has the following
+  behaviors:
+  * ` ` - If nothing is supplied, it will just exec `node`
+  * `start` (Default) - proxies `npm start` so your app could start
+  * `test` - proxies `npm test` so your app could run tests
+  * `shell` - proxies to `/bin/sh`
+
+## What if i need to install stuff on my container?
+
+Where are two ways of doing this. If packages aren't direct dependencies to your
+app, you could continue to use `onbuild` version. Otherwise, if you `onbuild` is
+failing because `npm install` declares the needs of some dependencies, you will
+have to use regular version.
