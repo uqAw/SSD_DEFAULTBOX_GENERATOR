@@ -57,3 +57,27 @@ Where are two ways of doing this. If packages aren't direct dependencies to your
 app, you could continue to use `onbuild` version. Otherwise, if you `onbuild` is
 failing because `npm install` declares the needs of some dependencies, you will
 have to use regular version.
+
+### onbuild way:
+```Dockerfile
+FROM cusspvz/node:0.12.7-onbuild
+RUN apk --update add package-a package-b && \
+    rm -fR /var/cache/apk/*;
+```
+
+### regular way:
+```Dockerfile
+FROM cusspvz/node:0.12.7
+RUN apk --update add package-a package-b && \
+    rm -fR /var/cache/apk/*;
+
+ENV NODE_ENV=production
+ADD . /app
+
+RUN npm install --production
+RUN npm run build
+
+CMD [ "start" ]
+```
+
+## Wait, what the f*ck is `apk`?
