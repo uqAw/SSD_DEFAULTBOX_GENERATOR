@@ -81,3 +81,25 @@ CMD [ "start" ]
 ```
 
 ## Wait, what the f*ck is `apk`?
+
+`apk` is the package manager for [Alpine Linux](//alpinelinux.org/) which this image is based.
+
+Its similar to:
+* `apt-get` on `.deb` based distros (Debian, Ubuntu, etc)
+* `yum` on `.rpm` based distros (CentOS, Fedora, etc)
+* `npm` on... ok, not quite but you got the idea.
+
+## And how do I know packages names?
+
+[Alpine Linux](//alpinelinux.org/), like many other distros, keeps a [page](//pkgs.alpinelinux.org/packages) with all info and links
+for each package.
+
+## Seems nice!! I'm gona use it on my next project!
+
+Cool!! Rate and tweet [GitHub repo](//github.com/cusspvz/node.docker) so others can know about this.
+
+## What if I want to access and execute some shitty shell things?
+
+```bash
+docker run --rm -ti cusspvz/node:0.12.7 shell
+```
