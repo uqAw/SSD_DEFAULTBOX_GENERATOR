@@ -33,3 +33,25 @@ with built-in Docker-in-Docker support, build and versioning control tools.
 
 What if you could develop using containers?
 Here's a brief example of things you could do:
+
+```bash
+# Launch `index.js` using node 0.12.7
+node.docker 0.12.7 ./index.js
+
+# Guess what, you don't even need to have node installed.
+
+# Without even having a Dockerfile, build and push a Docker Image from your app
+cd ~/path/to/my/app
+node.docker push 0.12.7 my-app:latest
+
+# node.docker build node_version image_description
+# node.docker run node_version image_description
+# node.docker push node_version image_description
+```
+
+[Learn more about Launcher](./LAUNCHER.README.md)
+
+### Using as your project's base image
+
+You could use this image as a regular one, but we advise you to use `onbuild`
+for rapid development.
