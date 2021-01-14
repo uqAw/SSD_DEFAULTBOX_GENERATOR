@@ -88,3 +88,25 @@ building it!
 
 
 ## Examples
+
+* [simple-http-server](./examples/simple-http-server)
+
+## Versions
+
+* **latest** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2Flatest)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:latest.svg) `cusspvz/node:latest`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:onbuild.svg) `cusspvz/node:onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:development.svg) `cusspvz/node:development`
+
+* **7.6.0** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F7.6.0)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:7.6.0.svg) `cusspvz/node:7.6.0`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:7.6.0-onbuild.svg) `cusspvz/node:7.6.0-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:7.6.0-development.svg) `cusspvz/node:7.6.0-development`
+
+* **7.5.0** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F7.5.0)](http://travis-ci.org/cusspvz/node.docker)
