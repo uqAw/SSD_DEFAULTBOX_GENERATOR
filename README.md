@@ -55,3 +55,36 @@ node.docker push 0.12.7 my-app:latest
 
 You could use this image as a regular one, but we advise you to use `onbuild`
 for rapid development.
+
+Focus on your project instead of your **Dockerfile**. Keep It Simple, Stupid:
+```Dockerfile
+FROM cusspvz/node:0.12.7-onbuild
+```
+
+[Learn more about Onbuild](./ONBUILD.README.md)
+
+### Test, Build and Deploy with `development` tag
+
+I believe Node-based images shouldn't have their tests on it, it takes space
+that won't be used into your production environment. Unfortunately its a very
+common behavior at most projects I've digged in.
+
+As so, I've created a new tag for all those so we can test an app before
+building it!
+
+#### What does the development image comes with?
+* basic stuff like: bash, wget, curl...
+* versioning software: **git** and **svn**
+* build utils, so you don't have problems when running `npm install`
+* Docker-in-Docker, based on `jpetazzo/dind` procedure
+* Container orchestration tools: docker-compose and rancher-compose
+* an Node.js build (are you serious? hahaha)
+
+#### Steps for using it
+* Add your test folder into your `.dockerignore`
+* Create docker runners using up `cusspvz/node:development` image
+* On your favorite CD/CI system, just set up to run the `test` stage before the
+`build` one.
+
+
+## Examples
