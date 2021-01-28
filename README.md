@@ -323,3 +323,23 @@ building it!
 
 ![layers](https://images.microbadger.com/badges/image/cusspvz/node:6.1.0-development.svg) `cusspvz/node:6.1.0-development`
 
+
+* **6.0.0** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F6.0.0)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:6.0.0.svg) `cusspvz/node:6.0.0`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:6.0.0-onbuild.svg) `cusspvz/node:6.0.0-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:6.0.0-development.svg) `cusspvz/node:6.0.0-development`
+
+
+* **5.12.0** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F5.12.0)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:5.12.0.svg) `cusspvz/node:5.12.0`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:5.12.0-onbuild.svg) `cusspvz/node:5.12.0-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:5.12.0-development.svg) `cusspvz/node:5.12.0-development`
+
+
+* **5.11.1** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F5.11.1)](http://travis-ci.org/cusspvz/node.docker)
