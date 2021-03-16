@@ -1094,3 +1094,35 @@ building it!
 ![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.36.svg) `cusspvz/node:0.10.36`
 
 ![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.36-onbuild.svg) `cusspvz/node:0.10.36-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.36-development.svg) `cusspvz/node:0.10.36-development`
+
+
+* **0.10.35** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.10.35)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.35.svg) `cusspvz/node:0.10.35`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.35-onbuild.svg) `cusspvz/node:0.10.35-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.35-development.svg) `cusspvz/node:0.10.35-development`
+
+
+* **0.10.34** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.10.34)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.34.svg) `cusspvz/node:0.10.34`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.34-onbuild.svg) `cusspvz/node:0.10.34-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.34-development.svg) `cusspvz/node:0.10.34-development`
+
+
+* **0.10.33** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.10.33)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.33.svg) `cusspvz/node:0.10.33`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.33-onbuild.svg) `cusspvz/node:0.10.33-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.10.33-development.svg) `cusspvz/node:0.10.33-development`
+
+
+* **0.10.32** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.10.32)](http://travis-ci.org/cusspvz/node.docker)
