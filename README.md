@@ -2303,3 +2303,38 @@ building it!
 
 ![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.3-development.svg) `cusspvz/node:0.4.3-development`
 
+
+* **0.4.2** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.4.2)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.2.svg) `cusspvz/node:0.4.2`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.2-onbuild.svg) `cusspvz/node:0.4.2-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.2-development.svg) `cusspvz/node:0.4.2-development`
+
+
+* **0.4.1** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.4.1)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.1.svg) `cusspvz/node:0.4.1`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.1-onbuild.svg) `cusspvz/node:0.4.1-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.1-development.svg) `cusspvz/node:0.4.1-development`
+
+
+* **0.4.0** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.4.0)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.0.svg) `cusspvz/node:0.4.0`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.0-onbuild.svg) `cusspvz/node:0.4.0-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.4.0-development.svg) `cusspvz/node:0.4.0-development`
+
+
+* **0.3.8** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.3.8)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.3.8.svg) `cusspvz/node:0.3.8`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.3.8-onbuild.svg) `cusspvz/node:0.3.8-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.3.8-development.svg) `cusspvz/node:0.3.8-development`
