@@ -2483,3 +2483,36 @@ building it!
 
 ![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.104-development.svg) `cusspvz/node:0.1.104-development`
 
+
+* **0.1.103** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.1.103)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.103.svg) `cusspvz/node:0.1.103`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.103-onbuild.svg) `cusspvz/node:0.1.103-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.103-development.svg) `cusspvz/node:0.1.103-development`
+
+
+* **0.1.102** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.1.102)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.102.svg) `cusspvz/node:0.1.102`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.102-onbuild.svg) `cusspvz/node:0.1.102-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.102-development.svg) `cusspvz/node:0.1.102-development`
+
+
+* **0.1.101** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.1.101)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.101.svg) `cusspvz/node:0.1.101`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.101-onbuild.svg) `cusspvz/node:0.1.101-onbuild`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.101-development.svg) `cusspvz/node:0.1.101-development`
+
+
+* **0.1.100** - [![build status](https://travis-ci.org/cusspvz/node.docker.svg?branch=version%2F0.1.100)](http://travis-ci.org/cusspvz/node.docker)
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.100.svg) `cusspvz/node:0.1.100`
+
+![layers](https://images.microbadger.com/badges/image/cusspvz/node:0.1.100-onbuild.svg) `cusspvz/node:0.1.100-onbuild`
