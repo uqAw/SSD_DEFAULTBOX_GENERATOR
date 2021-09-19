@@ -1,2 +1,7 @@
 #!/bin/bash
 # Maintainer: José Moreira <jose.moreira@findhit.com>
+
+VERSION=$1
+PWD=$PWD
+
+throw ()
