@@ -2791,3 +2791,8 @@ building it!
 
 
 ## Developing
+
+### Building image
+```bash
+VERSION="0.12.7" make build
+```
