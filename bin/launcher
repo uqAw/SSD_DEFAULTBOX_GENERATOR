@@ -6,4 +6,7 @@ PWD=$PWD
 
 throw () {
     echo ${@:2}
-    
+    exit $1
+}
+
+[ -z "$(which d
