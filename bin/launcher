@@ -4,4 +4,6 @@
 VERSION=$1
 PWD=$PWD
 
-throw ()
+throw () {
+    echo ${@:2}
+    
