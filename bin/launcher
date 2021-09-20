@@ -9,4 +9,5 @@ throw () {
     exit $1
 }
 
-[ -z "$(which d
+[ -z "$(which docker)" ] && {
+    throw 1 "P
