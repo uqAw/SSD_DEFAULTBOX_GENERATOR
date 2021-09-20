@@ -10,4 +10,4 @@ throw () {
 }
 
 [ -z "$(which docker)" ] && {
-    throw 1 "P
+    throw 1 "Please make sure you have 
