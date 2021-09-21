@@ -16,4 +16,6 @@ throw () {
 ## Actions
 
 build () {
-    NOD
+    NODE_VERSION=$1
+    IMAGE_NAME=$2
+
