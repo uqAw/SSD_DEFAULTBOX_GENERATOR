@@ -13,4 +13,7 @@ throw () {
     throw 1 "Please make sure you have docker installed"
 }
 
-##
+## Actions
+
+build () {
+    NOD
