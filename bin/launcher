@@ -19,4 +19,5 @@ build () {
     NODE_VERSION=$1
     IMAGE_NAME=$2
 
-    [ -z "$NODE_VERSION" ]
+    [ -z "$NODE_VERSION" ] && {
+        throw 2 
