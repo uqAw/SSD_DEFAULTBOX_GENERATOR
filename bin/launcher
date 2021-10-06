@@ -20,4 +20,4 @@ build () {
     IMAGE_NAME=$2
 
     [ -z "$NODE_VERSION" ] && {
-        throw 2 
+        throw 2 "Please provide 
