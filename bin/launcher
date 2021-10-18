@@ -23,4 +23,5 @@ build () {
         throw 2 "Please provide a version"
     }
 
-    [ -z "$IMAGE_NAME" 
+    [ -z "$IMAGE_NAME" ] && {
+        throw 3
