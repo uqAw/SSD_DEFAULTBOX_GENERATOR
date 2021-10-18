@@ -24,4 +24,4 @@ build () {
     }
 
     [ -z "$IMAGE_NAME" ] && {
-        throw 3 "Please provide a im
+        throw 3 "Please provide a image name for the build"
