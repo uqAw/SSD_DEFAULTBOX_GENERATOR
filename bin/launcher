@@ -27,4 +27,5 @@ build () {
         throw 3 "Please provide a image name for the build"
     }
 
-    # Create a docke
+    # Create a dockerfile in case there is none
+  
