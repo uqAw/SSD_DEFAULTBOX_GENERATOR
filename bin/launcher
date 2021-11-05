@@ -32,4 +32,4 @@ build () {
         echo "FROM cusspvz/node:${NODE_VERSION}-onbuild" > "$PWD/Dockerfile"
     }
 
- 
+    exec docker build \
