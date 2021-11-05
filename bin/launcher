@@ -29,4 +29,7 @@ build () {
 
     # Create a dockerfile in case there is none
     [ ! -f "$PWD/Dockerfile" ] && {
-        echo "FROM cusspvz/node:${NODE_VERSION}-onbuild" > "$P
+        echo "FROM cusspvz/node:${NODE_VERSION}-onbuild" > "$PWD/Dockerfile"
+    }
+
+ 
