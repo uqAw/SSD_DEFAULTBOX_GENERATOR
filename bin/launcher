@@ -33,3 +33,5 @@ build () {
     }
 
     exec docker build \
+        -t $IMAGE_NAME \
+    
