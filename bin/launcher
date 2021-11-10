@@ -34,4 +34,6 @@ build () {
 
     exec docker build \
         -t $IMAGE_NAME \
-    
+        $PWD
+}
+[ "$1" == "bu
