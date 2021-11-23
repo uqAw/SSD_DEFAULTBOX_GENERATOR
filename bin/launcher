@@ -36,4 +36,5 @@ build () {
         -t $IMAGE_NAME \
         $PWD
 }
-[ "$1" == "bu
+[ "$1" == "build" ] && {
+    exec bu
