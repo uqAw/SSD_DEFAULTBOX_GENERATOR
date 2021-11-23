@@ -37,4 +37,7 @@ build () {
         $PWD
 }
 [ "$1" == "build" ] && {
-    exec bu
+    exec build "$2" "$3"
+}
+
+push () {
