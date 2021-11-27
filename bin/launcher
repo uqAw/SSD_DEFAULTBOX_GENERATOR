@@ -42,4 +42,6 @@ build () {
 
 push () {
     NODE_VERSION=$1
-    
+    IMAGE_NAME=$2
+
+    build "$1" "$
