@@ -44,4 +44,5 @@ push () {
     NODE_VERSION=$1
     IMAGE_NAME=$2
 
-    build "$1" "$
+    build "$1" "$2"
+    exec docker push $IMAGE
