@@ -45,4 +45,7 @@ push () {
     IMAGE_NAME=$2
 
     build "$1" "$2"
-    exec docker push $IMAGE
+    exec docker push $IMAGE_NAME
+}
+[ "$1" == "push" ] && {
+    exec
