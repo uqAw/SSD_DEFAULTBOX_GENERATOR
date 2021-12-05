@@ -53,4 +53,6 @@ push () {
 
 run () {
     NODE_VERSION=$1
-  
+    IMAGE_NAME=$2
+
+    buil
