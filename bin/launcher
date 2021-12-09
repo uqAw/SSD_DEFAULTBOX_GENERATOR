@@ -55,4 +55,5 @@ run () {
     NODE_VERSION=$1
     IMAGE_NAME=$2
 
-    buil
+    build "$1" "$2"
+    exec docker r
