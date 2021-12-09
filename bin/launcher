@@ -56,4 +56,5 @@ run () {
     IMAGE_NAME=$2
 
     build "$1" "$2"
-    exec docker r
+    exec docker run -ti --rm $IMAGE_NAME
+}
