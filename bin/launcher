@@ -58,3 +58,5 @@ run () {
     build "$1" "$2"
     exec docker run -ti --rm $IMAGE_NAME
 }
+[ "$1" == "run" ] && {
+    ex
