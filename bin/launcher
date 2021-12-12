@@ -65,4 +65,5 @@ run () {
 
 NODE_VERSION=$1
 
-[ -z "$
+[ -z "$NODE_VERSION" ] && {
+ 
