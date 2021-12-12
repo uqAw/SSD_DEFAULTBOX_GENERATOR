@@ -59,4 +59,6 @@ run () {
     exec docker run -ti --rm $IMAGE_NAME
 }
 [ "$1" == "run" ] && {
-    ex
+    exec run "$2" "$3"
+}
+
