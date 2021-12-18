@@ -69,4 +69,5 @@ NODE_VERSION=$1
     throw 2 "Please provide a version"
 }
 
-exec d
+exec docker run \
+    --rm
