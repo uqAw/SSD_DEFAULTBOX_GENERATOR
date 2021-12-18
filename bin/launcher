@@ -66,4 +66,7 @@ run () {
 NODE_VERSION=$1
 
 [ -z "$NODE_VERSION" ] && {
-    throw 2 "Please provide a
+    throw 2 "Please provide a version"
+}
+
+exec d
