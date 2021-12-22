@@ -70,4 +70,5 @@ NODE_VERSION=$1
 }
 
 exec docker run \
-    --rm
+    --rm -ti \
+    -l $PWD:/app
