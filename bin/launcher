@@ -73,4 +73,4 @@ exec docker run \
     --rm -ti \
     -l $PWD:/app \
     cusspvz/node:$NODE_VERSION \
-    node
+    node ${@:2}
