@@ -72,4 +72,5 @@ NODE_VERSION=$1
 exec docker run \
     --rm -ti \
     -l $PWD:/app \
-    cusspvz/node:$NODE_VER
+    cusspvz/node:$NODE_VERSION \
+    node
