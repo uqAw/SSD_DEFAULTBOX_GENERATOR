@@ -1,1 +1,3 @@
-# Simple HTTP Serve
+# Simple HTTP Server
+
+## Building and executin
