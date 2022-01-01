@@ -1,3 +1,6 @@
 # Simple HTTP Server
 
-## Building and executin
+## Building and executing
+
+```
+set IMAGE simple-http-server;
