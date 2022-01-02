@@ -4,3 +4,4 @@
 
 ```
 set IMAGE simple-http-server;
+docker built -t $IMAGE .;
