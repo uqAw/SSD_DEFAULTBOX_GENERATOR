@@ -1,3 +1,4 @@
 /* jshint asi:true */
 
-require( 'htt
+require( 'http' )
+.createServer(funct
