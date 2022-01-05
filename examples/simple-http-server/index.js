@@ -1,4 +1,5 @@
 /* jshint asi:true */
 
 require( 'http' )
-.createServer(funct
+.createServer(function ( req, res ) {
+    res.w
