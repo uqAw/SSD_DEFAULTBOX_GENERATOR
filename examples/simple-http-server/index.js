@@ -2,4 +2,5 @@
 
 require( 'http' )
 .createServer(function ( req, res ) {
-    res.w
+    res.write( 'hello world' )
+   
