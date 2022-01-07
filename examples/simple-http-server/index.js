@@ -5,4 +5,4 @@ require( 'http' )
     res.write( 'hello world' )
     res.end()
 })
-.list
+.listen( 3000, function () 
