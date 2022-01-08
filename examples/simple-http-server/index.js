@@ -6,4 +6,4 @@ require( 'http' )
     res.end()
 })
 .listen( 3000, function () {
-    console.log( 'server l
+    console.log( 'server listening at cont
