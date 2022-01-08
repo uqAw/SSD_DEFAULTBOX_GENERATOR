@@ -5,4 +5,5 @@ require( 'http' )
     res.write( 'hello world' )
     res.end()
 })
-.listen( 3000, function () 
+.listen( 3000, function () {
+    console.log( 'server l
