@@ -6,4 +6,5 @@ require( 'http' )
     res.end()
 })
 .listen( 3000, function () {
-    console.log( 'server listening at cont
+    console.log( 'server listening at container port 3000')
+})
