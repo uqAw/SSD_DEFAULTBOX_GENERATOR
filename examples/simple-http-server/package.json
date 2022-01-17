@@ -4,3 +4,5 @@
     "scripts": {
         "build": "echo Nothing to build...",
         "start": "node index.js"
+    }
+}
