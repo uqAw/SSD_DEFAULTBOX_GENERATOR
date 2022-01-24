@@ -1,4 +1,5 @@
 {
   "name": "node.docker",
   "version": "1.0.0",
-  "description": "Super small Node.js container (~20MB) based on A
+  "description": "Super small Node.js container (~20MB) based on Alpine Linux OS",
+  "bin": 
