@@ -6,4 +6,4 @@
     "node.docker": "bin/launcher"
   },
   "scripts": {
-    
+    "test": "echo \"Error: no test
