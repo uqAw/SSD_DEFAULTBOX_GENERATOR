@@ -7,4 +7,4 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git push origin master && git checkout deploy && git reset --hard origin/master && git push origin deploy
+    "deploy": "git push origin master && git checkout deploy && git reset --hard origin/master && git push origin deploy && git checkout 
