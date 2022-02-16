@@ -10,4 +10,5 @@
     "deploy": "git push origin master && git checkout deploy && git reset --hard origin/master && git push origin deploy && git checkout master"
   },
   "repository": {
-  
+    "type": "git",
+    "ur
