@@ -13,4 +13,5 @@
     "type": "git",
     "url": "https://github.com/cusspvz/node.docker.git"
   },
-  "key
+  "keywords": [
+    "docker",
