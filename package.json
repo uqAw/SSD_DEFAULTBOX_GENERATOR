@@ -23,4 +23,6 @@
     "linux"
   ],
   "author": "José Moreira <jose.moreira@findhit.com>",
-  "license": "GPL-3.0
+  "license": "GPL-3.0",
+  "bugs": {
+   
