@@ -4,4 +4,5 @@ MAINTAINER José Moreira <jose.moreira@findhit.com>
 ENV NODE_PREFIX=/usr/local \
     NODE_VERSION=latest \
     NPM_VERSION=latest \
-    YARN_VERSION=latest 
+    YARN_VERSION=latest \
+    NODE_SOURCE=/usr/src
