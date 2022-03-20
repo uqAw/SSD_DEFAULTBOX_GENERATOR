@@ -6,4 +6,4 @@ ENV NODE_PREFIX=/usr/local \
     NPM_VERSION=latest \
     YARN_VERSION=latest \
     NODE_SOURCE=/usr/src/node \
-    BASE_APKS=
+    BASE_APKS="bash libgcc libstdc++ ope
