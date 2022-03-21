@@ -7,4 +7,4 @@ ENV NODE_PREFIX=/usr/local \
     YARN_VERSION=latest \
     NODE_SOURCE=/usr/src/node \
     BASE_APKS="bash libgcc libstdc++ openssl ca-certificates" \
-  
+    BUILD_APKS="git curl wget bz
