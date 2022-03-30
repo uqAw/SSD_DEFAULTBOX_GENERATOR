@@ -8,4 +8,4 @@ ENV NODE_PREFIX=/usr/local \
     NODE_SOURCE=/usr/src/node \
     BASE_APKS="bash libgcc libstdc++ openssl ca-certificates" \
     BUILD_APKS="git curl wget bzip2 tar make gcc clang g++ python linux-headers paxctl binutils-gold autoconf bison zlib-dev openssl-dev" \
-    NODE_CON
+    NODE_CONFIG_FLAGS="--shared-ope
