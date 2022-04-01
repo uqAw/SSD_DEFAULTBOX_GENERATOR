@@ -10,4 +10,5 @@ ENV NODE_PREFIX=/usr/local \
     BUILD_APKS="git curl wget bzip2 tar make gcc clang g++ python linux-headers paxctl binutils-gold autoconf bison zlib-dev openssl-dev" \
     NODE_CONFIG_FLAGS="--shared-openssl"
 
-RUN [ "${NODE
+RUN [ "${NODE_VERSION}" == "latest" ] && { \
+ 
