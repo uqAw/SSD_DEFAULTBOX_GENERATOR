@@ -11,4 +11,5 @@ ENV NODE_PREFIX=/usr/local \
     NODE_CONFIG_FLAGS="--shared-openssl"
 
 RUN [ "${NODE_VERSION}" == "latest" ] && { \
-        DOWNLOAD_PATH=https://nodejs.org/dist/
+        DOWNLOAD_PATH=https://nodejs.org/dist/node-latest.tar.gz; \
+    } || { \
