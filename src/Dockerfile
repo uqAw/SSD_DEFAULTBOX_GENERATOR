@@ -13,3 +13,4 @@ ENV NODE_PREFIX=/usr/local \
 RUN [ "${NODE_VERSION}" == "latest" ] && { \
         DOWNLOAD_PATH=https://nodejs.org/dist/node-latest.tar.gz; \
     } || { \
+        DOWNLOAD_PA
