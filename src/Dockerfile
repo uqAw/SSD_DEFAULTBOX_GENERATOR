@@ -13,4 +13,6 @@ ENV NODE_PREFIX=/usr/local \
 RUN [ "${NODE_VERSION}" == "latest" ] && { \
         DOWNLOAD_PATH=https://nodejs.org/dist/node-latest.tar.gz; \
     } || { \
-        DOWNLOAD_PATH=https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION
+        DOWNLOAD_PATH=https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.tar.gz; \
+    }; \
+    apk
