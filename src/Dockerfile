@@ -16,4 +16,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         DOWNLOAD_PATH=https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.tar.gz; \
     }; \
     apk add --update $BASE_APKS $BUILD_APKS && \
-    mkdir -p $
+    mkdir -p $NODE_SOURCE && \
+    
