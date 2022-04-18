@@ -17,4 +17,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     }; \
     apk add --update $BASE_APKS $BUILD_APKS && \
     mkdir -p $NODE_SOURCE && \
-    
+    wget -O - $DOWNLOAD_PA
