@@ -17,4 +17,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     }; \
     apk add --update $BASE_APKS $BUILD_APKS && \
     mkdir -p $NODE_SOURCE && \
-    wget -O - $DOWNLOAD_PATH -nv | tar -xz --strip-components=1 -C $NODE_SOU
+    wget -O - $DOWNLOAD_PATH -nv | tar -xz --strip-components=1 -C $NODE_SOURCE && \
+    cd $NODE_SOURCE && \
