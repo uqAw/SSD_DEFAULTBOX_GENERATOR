@@ -19,3 +19,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     mkdir -p $NODE_SOURCE && \
     wget -O - $DOWNLOAD_PATH -nv | tar -xz --strip-components=1 -C $NODE_SOURCE && \
     cd $NODE_SOURCE && \
+    export GYP_DEFINES
