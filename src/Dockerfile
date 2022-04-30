@@ -20,4 +20,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     wget -O - $DOWNLOAD_PATH -nv | tar -xz --strip-components=1 -C $NODE_SOURCE && \
     cd $NODE_SOURCE && \
     export GYP_DEFINES="linux_use_gold_flags=0" && \
-    ./configure -
+    ./configure --prefix=$NODE_PREFIX $NODE_CON
