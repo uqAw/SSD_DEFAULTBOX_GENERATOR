@@ -21,4 +21,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     cd $NODE_SOURCE && \
     export GYP_DEFINES="linux_use_gold_flags=0" && \
     ./configure --prefix=$NODE_PREFIX $NODE_CONFIG_FLAGS && \
-    make -j$(
+    make -j$(grep -c ^processor /proc
