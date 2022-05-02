@@ -22,4 +22,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     export GYP_DEFINES="linux_use_gold_flags=0" && \
     ./configure --prefix=$NODE_PREFIX $NODE_CONFIG_FLAGS && \
     make -j$(grep -c ^processor /proc/cpuinfo 2>/dev/null || 1) && \
-    make instal
+    make install && \
+    paxctl -
