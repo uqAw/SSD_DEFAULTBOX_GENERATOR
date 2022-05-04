@@ -23,4 +23,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     ./configure --prefix=$NODE_PREFIX $NODE_CONFIG_FLAGS && \
     make -j$(grep -c ^processor /proc/cpuinfo 2>/dev/null || 1) && \
     make install && \
-    paxctl -
+    paxctl -cm ${NODE_PREFIX}/bin/node && \
