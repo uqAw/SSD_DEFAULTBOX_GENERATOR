@@ -24,3 +24,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     make -j$(grep -c ^processor /proc/cpuinfo 2>/dev/null || 1) && \
     make install && \
     paxctl -cm ${NODE_PREFIX}/bin/node && \
+    cd / && \
+    if [ -x /us
