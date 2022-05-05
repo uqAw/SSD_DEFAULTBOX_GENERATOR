@@ -25,4 +25,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     make install && \
     paxctl -cm ${NODE_PREFIX}/bin/node && \
     cd / && \
-    if [ -x /us
+    if [ -x /usr/bin/npm ]; then \
+      npm i
