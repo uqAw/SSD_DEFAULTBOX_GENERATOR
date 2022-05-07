@@ -26,4 +26,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     paxctl -cm ${NODE_PREFIX}/bin/node && \
     cd / && \
     if [ -x /usr/bin/npm ]; then \
-      npm i
+      npm install -g npm@${NPM_VERSIO
