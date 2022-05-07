@@ -26,4 +26,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     paxctl -cm ${NODE_PREFIX}/bin/node && \
     cd / && \
     if [ -x /usr/bin/npm ]; then \
-      npm install -g npm@${NPM_VERSIO
+      npm install -g npm@${NPM_VERSION} yarn@${YARN_VERSION} && \
+      
