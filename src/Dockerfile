@@ -27,4 +27,6 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     cd / && \
     if [ -x /usr/bin/npm ]; then \
       npm install -g npm@${NPM_VERSION} yarn@${YARN_VERSION} && \
-      find /usr/lib/node_modules/npm -name test -o -name .bin -type d | xargs rm -rf;
+      find /usr/lib/node_modules/npm -name test -o -name .bin -type d | xargs rm -rf; \
+    fi && \
+    a
