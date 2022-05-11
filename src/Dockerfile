@@ -29,4 +29,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
       npm install -g npm@${NPM_VERSION} yarn@${YARN_VERSION} && \
       find /usr/lib/node_modules/npm -name test -o -name .bin -type d | xargs rm -rf; \
     fi && \
-    a
+    apk del $BUILD_APKS && \
+    
