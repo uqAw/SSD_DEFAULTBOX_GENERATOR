@@ -30,4 +30,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
       find /usr/lib/node_modules/npm -name test -o -name .bin -type d | xargs rm -rf; \
     fi && \
     apk del $BUILD_APKS && \
-    
+    rm -rf \
+        ${NODE_SOURC
