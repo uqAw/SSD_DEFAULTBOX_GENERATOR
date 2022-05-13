@@ -31,4 +31,6 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     fi && \
     apk del $BUILD_APKS && \
     rm -rf \
-        ${NODE_SOURC
+        ${NODE_SOURCE} \
+        /etc/ssl \
+        $
