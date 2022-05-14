@@ -33,4 +33,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     rm -rf \
         ${NODE_SOURCE} \
         /etc/ssl \
-        $
+        ${NODE_PREFIX}/include \
+      
