@@ -34,4 +34,6 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         ${NODE_SOURCE} \
         /etc/ssl \
         ${NODE_PREFIX}/include \
-        ${NODE_PREFIX}/shar
+        ${NODE_PREFIX}/share/man \
+        /tmp/* \
+  
