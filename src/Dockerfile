@@ -36,4 +36,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         ${NODE_PREFIX}/include \
         ${NODE_PREFIX}/share/man \
         /tmp/* \
-  
+        /var/cache/apk/* \
+        /
