@@ -39,4 +39,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         /var/cache/apk/* \
         /root/.npm \
         /root/.node-gyp \
-        /r
+        /root/.gnupg \
+        ${NOD
