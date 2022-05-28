@@ -41,4 +41,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         /root/.node-gyp \
         /root/.gnupg \
         ${NODE_PREFIX}/lib/node_modules/npm/man \
-        ${NODE_PREFIX}/lib/node_modules/np
+        ${NODE_PREFIX}/lib/node_modules/npm/doc \
+        $
