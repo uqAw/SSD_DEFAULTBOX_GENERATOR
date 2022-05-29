@@ -42,4 +42,6 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         /root/.gnupg \
         ${NODE_PREFIX}/lib/node_modules/npm/man \
         ${NODE_PREFIX}/lib/node_modules/npm/doc \
-        ${NODE_PREFIX}/lib/n
+        ${NODE_PREFIX}/lib/node_modules/npm/html \
+    && \
+ 
