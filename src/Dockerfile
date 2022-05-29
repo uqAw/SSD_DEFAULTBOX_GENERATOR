@@ -44,4 +44,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         ${NODE_PREFIX}/lib/node_modules/npm/doc \
         ${NODE_PREFIX}/lib/node_modules/npm/html \
     && \
- 
+    mkdir -p /app && \
+    e
