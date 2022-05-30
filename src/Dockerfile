@@ -45,4 +45,6 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
         ${NODE_PREFIX}/lib/node_modules/npm/html \
     && \
     mkdir -p /app && \
-    e
+    exit 0 || exit 1;
+
+WORKDIR 
