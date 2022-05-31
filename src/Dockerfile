@@ -48,4 +48,4 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     exit 0 || exit 1;
 
 WORKDIR /app
-ADD https://raw.githubu
+ADD https://raw.githubusercontent.com/cusspvz/node.d
