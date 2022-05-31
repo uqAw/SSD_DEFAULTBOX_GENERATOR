@@ -47,4 +47,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     mkdir -p /app && \
     exit 0 || exit 1;
 
-WORKDIR 
+WORKDIR /app
+ADD https://raw.githubu
