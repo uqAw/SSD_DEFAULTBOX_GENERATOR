@@ -49,4 +49,5 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
 
 WORKDIR /app
 ADD https://raw.githubusercontent.com/cusspvz/node.docker/master/src/entrypoint /bin/entrypoint
-RUN chm
+RUN chmod +x /bin/entrypoint
+EN
