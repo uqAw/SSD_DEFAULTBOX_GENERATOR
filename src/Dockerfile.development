@@ -2,4 +2,4 @@
 # development image specially created for builds
 # This should include all resources for a node-based project such as:
 # - build utils
-# - 
+# - docker so we can build a docker
