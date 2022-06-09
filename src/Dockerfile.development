@@ -3,4 +3,6 @@
 # This should include all resources for a node-based project such as:
 # - build utils
 # - docker so we can build a docker image on CI
-# - version
+# - versioning software
+
+# 
