@@ -5,4 +5,5 @@
 # - docker so we can build a docker image on CI
 # - versioning software
 
-# Stuff that could be gathered through alpine pack
+# Stuff that could be gathered through alpine package manager
+RUN rm -f /etc/apk
