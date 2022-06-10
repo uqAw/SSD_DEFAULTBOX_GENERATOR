@@ -5,4 +5,4 @@
 # - docker so we can build a docker image on CI
 # - versioning software
 
-# Stuff that could be gather
+# Stuff that could be gathered through alpine pack
