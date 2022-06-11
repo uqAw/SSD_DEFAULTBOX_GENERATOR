@@ -6,4 +6,5 @@
 # - versioning software
 
 # Stuff that could be gathered through alpine package manager
-RUN rm -f /etc/apk
+RUN rm -f /etc/apk/repositories && \
+    ech
