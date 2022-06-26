@@ -13,4 +13,4 @@ RUN rm -f /etc/apk/repositories && \
     apk update && apk upgrade && \
     apk add \
         $BUILD_APKS \
-   
+        imagemagick gr
