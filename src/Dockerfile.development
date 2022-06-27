@@ -13,4 +13,4 @@ RUN rm -f /etc/apk/repositories && \
     apk update && apk upgrade && \
     apk add \
         $BUILD_APKS \
-        imagemagick graphicsmagick vips-dev fftw-de
+        imagemagick graphicsmagick vips-dev fftw-dev libjpeg-turbo-dev
