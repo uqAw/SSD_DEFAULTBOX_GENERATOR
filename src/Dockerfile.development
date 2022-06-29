@@ -14,4 +14,5 @@ RUN rm -f /etc/apk/repositories && \
     apk add \
         $BUILD_APKS \
         imagemagick graphicsmagick vips-dev fftw-dev libjpeg-turbo-dev jpeg-dev \
-        libf
+        libffi-dev gdbm yaml-dev procps \
+        
