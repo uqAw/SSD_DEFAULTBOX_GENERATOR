@@ -19,4 +19,4 @@ RUN rm -f /etc/apk/repositories && \
         subversion \
         jq \
     && \
-    mkdir 
+    mkdir -p /etc/ssl/certs/ && 
