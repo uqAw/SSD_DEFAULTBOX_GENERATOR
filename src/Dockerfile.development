@@ -19,4 +19,5 @@ RUN rm -f /etc/apk/repositories && \
         subversion \
         jq \
     && \
-    mkdir -p /etc/ssl/certs/ && 
+    mkdir -p /etc/ssl/certs/ && \
+    update-ca-certificat
