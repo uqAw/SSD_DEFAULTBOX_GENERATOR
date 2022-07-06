@@ -20,4 +20,5 @@ RUN rm -f /etc/apk/repositories && \
         jq \
     && \
     mkdir -p /etc/ssl/certs/ && \
-    update-ca-certificat
+    update-ca-certificates --fresh && \
+    rm 
