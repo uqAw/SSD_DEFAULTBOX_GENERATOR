@@ -21,4 +21,5 @@ RUN rm -f /etc/apk/repositories && \
     && \
     mkdir -p /etc/ssl/certs/ && \
     update-ca-certificates --fresh && \
-    rm 
+    rm -f /bin/ash /bin/sh && \
+ 
