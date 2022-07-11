@@ -23,4 +23,5 @@ RUN rm -f /etc/apk/repositories && \
     update-ca-certificates --fresh && \
     rm -f /bin/ash /bin/sh && \
     ln -s /bin/bash /bin/ash && \
-    ln -s /bin/bas
+    ln -s /bin/bash /bin/sh && \
+    rm -fR /va
