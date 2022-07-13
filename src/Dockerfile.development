@@ -26,4 +26,5 @@ RUN rm -f /etc/apk/repositories && \
     ln -s /bin/bash /bin/sh && \
     rm -fR /var/cache/apk/*
 
-# glibc for 
+# glibc for alpine
+RUN wget -O -
