@@ -24,4 +24,6 @@ RUN rm -f /etc/apk/repositories && \
     rm -f /bin/ash /bin/sh && \
     ln -s /bin/bash /bin/ash && \
     ln -s /bin/bash /bin/sh && \
-    rm -fR /va
+    rm -fR /var/cache/apk/*
+
+# glibc for 
