@@ -27,4 +27,4 @@ RUN rm -f /etc/apk/repositories && \
     rm -fR /var/cache/apk/*
 
 # glibc for alpine
-RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apk
+RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | tar xvz -C /tmp && \
