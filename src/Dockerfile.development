@@ -28,4 +28,5 @@ RUN rm -f /etc/apk/repositories && \
 
 # glibc for alpine
 RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | tar xvz -C /tmp && \
-    apk add --force --allow-
+    apk add --force --allow-untrusted \
+        /tmp/apks/g
