@@ -31,4 +31,5 @@ RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | 
     apk add --force --allow-untrusted \
         /tmp/apks/glibc-2.21-r2.apk \
         /tmp/apks/glibc-bin-2.21-r2.apk \
-    &
+    && \
+    /usr/glibc/usr/bin/ldconfi
