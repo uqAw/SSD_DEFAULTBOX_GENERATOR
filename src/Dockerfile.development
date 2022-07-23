@@ -33,4 +33,6 @@ RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | 
         /tmp/apks/glibc-bin-2.21-r2.apk \
     && \
     /usr/glibc/usr/bin/ldconfig /lib /usr/glibc/usr/lib && \
-    rm -fR /tmp/apks /
+    rm -fR /tmp/apks /var/cache/apk/*
+
+# 
