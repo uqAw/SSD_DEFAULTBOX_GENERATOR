@@ -35,4 +35,5 @@ RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | 
     /usr/glibc/usr/bin/ldconfig /lib /usr/glibc/usr/lib && \
     rm -fR /tmp/apks /var/cache/apk/*
 
-# Docker compo
+# Docker compose
+RUN wget -O /usr/bi
