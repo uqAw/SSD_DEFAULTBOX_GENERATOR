@@ -36,4 +36,4 @@ RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | 
     rm -fR /tmp/apks /var/cache/apk/*
 
 # Docker compose
-RUN wget -O /usr/bin/docker-compose $(curl -s 
+RUN wget -O /usr/bin/docker-compose $(curl -s https://api.github.co
