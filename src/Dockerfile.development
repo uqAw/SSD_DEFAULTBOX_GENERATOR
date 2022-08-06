@@ -40,4 +40,5 @@ RUN wget -O /usr/bin/docker-compose $(curl -s https://api.github.com/repos/docke
     chmod +x /usr/bin/docker-compose && \
     /usr/bin/docker-compose --version
 
-# Ranche
+# Rancher compose
+RUN wget -O -
