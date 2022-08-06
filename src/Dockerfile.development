@@ -38,4 +38,4 @@ RUN wget -O - "https://github.com/cusspvz/node.docker/raw/master/apks.tar.gz" | 
 # Docker compose
 RUN wget -O /usr/bin/docker-compose $(curl -s https://api.github.com/repos/docker/compose/releases/latest | jq --raw-output '[ .assets[] | .browser_download_url | if match("Linux-x86_64") then tostring else "" end ] | .[0]') && \
     chmod +x /usr/bin/docker-compose && \
- 
+    /usr/bin/docke
