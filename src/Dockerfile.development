@@ -41,4 +41,4 @@ RUN wget -O /usr/bin/docker-compose $(curl -s https://api.github.com/repos/docke
     /usr/bin/docker-compose --version
 
 # Rancher compose
-RUN wget -O - $(curl -s https://api.github.com/repos/rancher/rancher-compose/releases/latest | jq --raw-output '[ .assets[] | .browser_download_url | if match("lin
+RUN wget -O - $(curl -s https://api.github.com/repos/rancher/rancher-compose/releases/latest | jq --raw-output '[ .assets[] | .browser_download_url | if match("linux-amd64") then tostrin
