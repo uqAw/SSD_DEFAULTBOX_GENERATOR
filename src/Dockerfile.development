@@ -46,4 +46,4 @@ RUN wget -O - $(curl -s https://api.github.com/repos/rancher/rancher-compose/rel
     chmod +x /usr/bin/rancher-compose && \
     /usr/bin/rancher-compose --version
 
-ADD https://raw.githubusercontent.
+ADD https://raw.githubusercontent.com/jpetazzo/dind/mast
