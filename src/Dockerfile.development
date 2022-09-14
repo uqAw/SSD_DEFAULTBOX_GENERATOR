@@ -49,4 +49,5 @@ RUN wget -O - $(curl -s https://api.github.com/repos/rancher/rancher-compose/rel
 ADD https://raw.githubusercontent.com/jpetazzo/dind/master/wrapdocker /usr/local/bin/wrapdocker
 RUN chmod +x /usr/local/bin/wrapdocker
 
-VOLUME 
+VOLUME /var/lib/docker
+CMD ["wrapdo
