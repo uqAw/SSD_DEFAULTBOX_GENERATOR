@@ -1,2 +1,3 @@
 
-# For sugar automated buil
+# For sugar automated builds
+ONBUILD ENV NODE_ENV
