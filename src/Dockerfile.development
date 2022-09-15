@@ -50,4 +50,4 @@ ADD https://raw.githubusercontent.com/jpetazzo/dind/master/wrapdocker /usr/local
 RUN chmod +x /usr/local/bin/wrapdocker
 
 VOLUME /var/lib/docker
-CMD ["wrapdo
+CMD ["wrapdocker"]
