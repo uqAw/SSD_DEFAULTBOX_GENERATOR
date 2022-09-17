@@ -2,4 +2,5 @@
 # For sugar automated builds
 ONBUILD ENV NODE_ENV=production
 ONBUILD ADD . /app
-ONBUILD R
+ONBUILD RUN \
+    echo ""         
