@@ -4,4 +4,4 @@ ONBUILD ENV NODE_ENV=production
 ONBUILD ADD . /app
 ONBUILD RUN \
     echo ""                                                                     && \
-    echo "# Welcome to cus
+    echo "# Welcome to cusspvz/node onbuild!"       
