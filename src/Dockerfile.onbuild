@@ -5,4 +5,5 @@ ONBUILD ADD . /app
 ONBUILD RUN \
     echo ""                                                                     && \
     echo "# Welcome to cusspvz/node onbuild!"                                   && \
-    echo ""                                                   
+    echo ""                                                                     && \
+    ec
