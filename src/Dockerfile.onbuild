@@ -6,4 +6,4 @@ ONBUILD RUN \
     echo ""                                                                     && \
     echo "# Welcome to cusspvz/node onbuild!"                                   && \
     echo ""                                                                     && \
-    echo "Here are a few notes y
+    echo "Here are a few notes you must know:"           
