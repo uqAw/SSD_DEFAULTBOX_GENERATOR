@@ -7,4 +7,4 @@ ONBUILD RUN \
     echo "# Welcome to cusspvz/node onbuild!"                                   && \
     echo ""                                                                     && \
     echo "Here are a few notes you must know:"                                  && \
- 
+    echo " - preinstall
