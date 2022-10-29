@@ -8,4 +8,5 @@ ONBUILD RUN \
     echo ""                                                                     && \
     echo "Here are a few notes you must know:"                                  && \
     echo " - preinstall script: Set preinstall script on your package.json in"  && \
-    echo "   case you need extra linux packages."                         
+    echo "   case you need extra linux packages."                               && \
+    echo '     
