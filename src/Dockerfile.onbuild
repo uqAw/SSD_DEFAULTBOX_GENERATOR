@@ -9,4 +9,5 @@ ONBUILD RUN \
     echo "Here are a few notes you must know:"                                  && \
     echo " - preinstall script: Set preinstall script on your package.json in"  && \
     echo "   case you need extra linux packages."                               && \
-    echo '     Example: "preinstall": "apk add perl" '                    
+    echo '     Example: "preinstall": "apk add perl" '                          && \
+    echo " - pos
