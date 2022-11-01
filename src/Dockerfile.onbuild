@@ -11,4 +11,4 @@ ONBUILD RUN \
     echo "   case you need extra linux packages."                               && \
     echo '     Example: "preinstall": "apk add perl" '                          && \
     echo " - postinstall script: Set postinstall script on your package.json"   && \
-    echo " 
+    echo "   if you need to do some cleaning
