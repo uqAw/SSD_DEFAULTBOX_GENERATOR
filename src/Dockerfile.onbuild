@@ -12,4 +12,4 @@ ONBUILD RUN \
     echo '     Example: "preinstall": "apk add perl" '                          && \
     echo " - postinstall script: Set postinstall script on your package.json"   && \
     echo "   if you need to do some cleaning, like a removal of a package you"  && \
-    echo "   only instal
+    echo "   only installed for building."        
