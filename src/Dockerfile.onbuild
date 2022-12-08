@@ -13,4 +13,4 @@ ONBUILD RUN \
     echo " - postinstall script: Set postinstall script on your package.json"   && \
     echo "   if you need to do some cleaning, like a removal of a package you"  && \
     echo "   only installed for building."                                      && \
-    echo '     
+    echo '     Example: "preinstall": "apk
