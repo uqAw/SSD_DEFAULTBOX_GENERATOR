@@ -14,4 +14,4 @@ ONBUILD RUN \
     echo "   if you need to do some cleaning, like a removal of a package you"  && \
     echo "   only installed for building."                                      && \
     echo '     Example: "preinstall": "apk del perl" '                          && \
-    echo " - build script: Always set a build
+    echo " - build script: Always set a build script on your package.json even"
