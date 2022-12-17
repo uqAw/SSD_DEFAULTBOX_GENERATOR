@@ -15,4 +15,4 @@ ONBUILD RUN \
     echo "   only installed for building."                                      && \
     echo '     Example: "preinstall": "apk del perl" '                          && \
     echo " - build script: Always set a build script on your package.json even" && \
-    echo " 
+    echo "   if you do NOT need it, bu
