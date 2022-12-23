@@ -16,4 +16,4 @@ ONBUILD RUN \
     echo '     Example: "preinstall": "apk del perl" '                          && \
     echo " - build script: Always set a build script on your package.json even" && \
     echo "   if you do NOT need it, but probably you'll need."                  && \
-    echo '     Example: "build": "gru
+    echo '     Example: "build": "grunt build" '       
