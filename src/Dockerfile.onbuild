@@ -17,4 +17,4 @@ ONBUILD RUN \
     echo " - build script: Always set a build script on your package.json even" && \
     echo "   if you do NOT need it, but probably you'll need."                  && \
     echo '     Example: "build": "grunt build" '                                && \
-    echo " - start script: Always set start script 
+    echo " - start script: Always set start script on your package.json so th
