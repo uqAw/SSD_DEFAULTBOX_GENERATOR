@@ -19,4 +19,4 @@ ONBUILD RUN \
     echo '     Example: "build": "grunt build" '                                && \
     echo " - start script: Always set start script on your package.json so the" && \
     echo "   docker image knows what to run whenever it starts."                && \
-    echo '   
+    echo '     Example: "start": "node 
