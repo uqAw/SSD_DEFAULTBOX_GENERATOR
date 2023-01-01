@@ -21,4 +21,4 @@ ONBUILD RUN \
     echo "   docker image knows what to run whenever it starts."                && \
     echo '     Example: "start": "node build/server/index.js" '                 && \
     echo ""                                                                     && \
-    echo "Thanks for usin
+    echo "Thanks for using it and spread the word,"       
