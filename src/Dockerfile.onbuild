@@ -22,4 +22,4 @@ ONBUILD RUN \
     echo '     Example: "start": "node build/server/index.js" '                 && \
     echo ""                                                                     && \
     echo "Thanks for using it and spread the word,"                             && \
-    echo "José Moreira (@cusspvz)"      
+    echo "José Moreira (@cusspvz)"                             
