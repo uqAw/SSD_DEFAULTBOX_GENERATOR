@@ -25,4 +25,5 @@ ONBUILD RUN \
     echo "José Moreira (@cusspvz)"                                              && \
     echo ""                                                                     && \
     echo "--"                                                                   && \
-    apk --up
+    apk --update add $BUILD_APKS && \
+     
