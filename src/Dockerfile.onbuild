@@ -24,4 +24,5 @@ ONBUILD RUN \
     echo "Thanks for using it and spread the word,"                             && \
     echo "José Moreira (@cusspvz)"                                              && \
     echo ""                                                                     && \
-    echo "--"                                                      
+    echo "--"                                                                   && \
+    apk --up
