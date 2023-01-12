@@ -27,4 +27,5 @@ ONBUILD RUN \
     echo "--"                                                                   && \
     apk --update add $BUILD_APKS && \
         npm install && \
-    apk 
+    apk del $BUILD_APKS && \
+    
