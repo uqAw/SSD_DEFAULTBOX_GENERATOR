@@ -30,4 +30,5 @@ ONBUILD RUN \
     apk del $BUILD_APKS && \
     rm -fR /var/cache/apk/*
 
-ON
+ONBUILD RUN npm run build
+ONBUI
