@@ -28,4 +28,6 @@ ONBUILD RUN \
     apk --update add $BUILD_APKS && \
         npm install && \
     apk del $BUILD_APKS && \
-    
+    rm -fR /var/cache/apk/*
+
+ON
