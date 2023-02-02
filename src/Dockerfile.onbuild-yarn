@@ -26,3 +26,9 @@ ONBUILD RUN \
     echo "José Moreira (@cusspvz)"                                              && \
     echo ""                                                                     && \
     echo "--"                                                                   && \
+    apk --update add $BUILD_APKS && \
+        yarn install && \
+    apk del $BUILD_APKS && \
+    rm -fR /var/cache/apk/*
+
+ONBUILD CMD [ "start" ]
