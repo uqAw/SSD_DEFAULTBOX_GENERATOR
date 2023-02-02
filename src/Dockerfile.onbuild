@@ -31,4 +31,4 @@ ONBUILD RUN \
     rm -fR /var/cache/apk/*
 
 ONBUILD RUN npm run build
-ONBUI
+ONBUILD CMD [ "start" ]

@@ -1,0 +1,4 @@
+
+
+# For sugar automated builds
+ONBUILD ENV NODE_ENV=production
