@@ -10,4 +10,7 @@ fi
 if [ "$1" == "start" ]; then
     cd /app
     exec $NODE_PREFIX/bin/npm start
-  
+    exit $?
+fi
+
+if [ "$1
