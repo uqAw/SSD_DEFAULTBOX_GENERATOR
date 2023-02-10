@@ -7,4 +7,6 @@ if [ "$1" == "" ] || \
     exit $?
 fi
 
-if [ "$1" == "start" ]; th
+if [ "$1" == "start" ]; then
+    cd /app
+    exec $NOD
