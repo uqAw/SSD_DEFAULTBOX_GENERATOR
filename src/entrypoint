@@ -13,4 +13,5 @@ if [ "$1" == "start" ]; then
     exit $?
 fi
 
-if [ "$1
+if [ "$1" == "test" ]; then
+    cd 
