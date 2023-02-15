@@ -14,4 +14,5 @@ if [ "$1" == "start" ]; then
 fi
 
 if [ "$1" == "test" ]; then
-    cd 
+    cd /app
+    exec $NODE
