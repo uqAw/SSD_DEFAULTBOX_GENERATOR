@@ -15,4 +15,5 @@ fi
 
 if [ "$1" == "test" ]; then
     cd /app
-    exec $NODE
+    exec $NODE_PREFIX/bin/npm test
+    exit $?
