@@ -20,3 +20,5 @@ if [ "$1" == "test" ]; then
 fi
 
 if [ "$1" == "ping" ]; then
+    cd /app
+    ex
