@@ -21,4 +21,4 @@ fi
 
 if [ "$1" == "ping" ]; then
     cd /app
-    ex
+    exec $NODE_PREFIX/bin/node
