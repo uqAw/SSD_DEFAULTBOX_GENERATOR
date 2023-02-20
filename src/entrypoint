@@ -22,4 +22,8 @@ fi
 if [ "$1" == "ping" ]; then
     cd /app
     exec $NODE_PREFIX/bin/node -e "console.log('pong')"
-    exit $
+    exit $?
+fi
+
+if [ "$1" == "shell" ] || \
+   [
