@@ -31,4 +31,5 @@ if [ "$1" == "shell" ] || \
    [ "$1" == "/bin/bash" ] || \
    [ "$1" == "/bin/sh" ];
    then
-    exec
+    exec /bin/sh -s
+    
