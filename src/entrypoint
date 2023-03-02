@@ -35,4 +35,4 @@ if [ "$1" == "shell" ] || \
     exit $?
 fi
 
-echo "f
+echo "feature not recognized, e
